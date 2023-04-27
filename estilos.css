@@ -1,0 +1,239 @@
+*{ margin: 0;
+padding: 0
+box-sizing: border-box;}
+
+html{ scroll-behavior: smooth;}
+
+.navbar{ background-color: blue;
+width: 100%;}
+
+.navbar-brand{ float: left;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+font-weight: bold;
+font-size: x-large;
+font-family: cursive;
+text-shadow: 0 0 30px #0e0000;
+padding: 10px;}
+
+a:hover {text-decoration: underline; } 
+
+ul { list-style: none;}
+
+ul li {display: inline-block;
+margin-left: 50px;
+padding: 10px;}
+
+ul a {color: #fff;
+text-decoration: none;}
+
+ul a:hover{ color: black;}
+
+
+.jumbotron {background-image: url(./imagenes/campeon.jpg);
+background-position: center;
+background-size: cover;
+height: 50vh;
+border-radius: 0%;
+color: white;
+font-size: larger;
+margin-bottom: 0%;}
+
+.jumbotron2 {background-image: url(./imagenes/camiseta\ mujer.jpg);
+    background-position:center;
+    background-size:cover;
+    height: 50vh;
+    border-radius: 0%;
+    color: white;
+    font-size: larger;
+    margin-bottom: 0%;}
+
+    .jumbotron3 {background-image: url(./imagenes/la-scaloneta.jpg);
+        background-position:center;
+        background-size:cover;
+        height: 50vh;
+        border-radius: 0%;
+        color: white;
+        font-size: larger;
+        margin-bottom: 0%;} 
+
+
+    .jumbotron4 {background-image: url(./imagenes/bandera.jpg);
+        background-position:center;
+        background-size:cover;
+        height: 50vh;
+        border-radius: 0%;
+        color: white;
+        font-size: larger;
+        margin-bottom: 0%;}    
+
+main{height: 70vh;
+    width: 100%;
+    background-color: white;
+   background-size: cover;
+background-position: center;}
+
+.historia{ width: 25%; float:right; 
+    color: white; 
+    background-color: white;
+border: 3px solid white;
+margin: 30px;
+padding: 30px;
+font-family: cursive;
+text-align: center;}
+
+h1{ color: whitesmoke;
+text-transform:uppercase;
+font-size: medium;
+margin-bottom: 20px;}
+
+.historia p{ margin-bottom: 20px;
+color: white;}
+
+.historia a{ background-color: white;
+text-decoration: none; color: blue;
+ font-size:x-small;
+ padding: 10px 20px;
+ border: 1px solid black;
+ }
+
+.historia a:hover{ background-color:whitesmoke}
+
+
+h2{text-align: center;white-space: inherit;
+background-color: cadetblue;
+text-transform: uppercase;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding: 10px;
+color: white;
+font-size: large;
+}
+
+section.cont {height:200px;
+width: 100%;
+background-color: white;;}
+
+.cont1{ display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-evenly;}
+
+.item {height: 150px;
+width: 150px;
+background-color: cadetblue;
+border: 2px solid white;
+margin: 10px;
+text-align: center;
+line-height: 150px;
+text-transform: uppercase;
+font-size: 15px;
+color: white;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-decoration: none;
+background-size: cover;
+background-position: center}
+
+
+.item1{ background-image: url(./imagenes/camiseta\ mujer.jpg);}
+.item2{background-image: url(./imagenes/pantalon\ mujer.png);}
+.item3{background-image: url(./imagenes/cammpera\ mujer.png);}
+.item4{background-image: url(./imagenes/OJOTAS.PNG);}
+.item5{background-image: url(./imagenes/Pelota\ futbol.jpg);}
+
+
+iframe{ border: 2px solid black;
+margin: 20px; width: 40%;}
+
+h3{ width: 40%;
+    margin: 20px;
+text-align:left;
+font-size: 20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color: cadetblue;
+color: white;
+text-align: justify;
+}
+
+
+.final{ display: flex;
+justify-content: space-around;
+background-color: cadetblue;
+border: 2 px solid black;
+margin: 20px;}
+
+footer{ text-align: center;
+    font-size: 20px;
+padding: 10px;
+color: white;
+background-color: black;}
+
+.redes a{ font-size: 30px;
+letter-spacing: 30px;
+color: white;}
+
+.subir{ height: 40px;
+width: 40px;
+color: gold;
+position: fixed;
+right: 50px;
+bottom: 25px;
+font-size: 35px;}
+
+
+.historiamujer{display: flex;
+    justify-content: space-between;
+    height: 400px;
+    width: 90%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: cadetblue;
+    border: 2 px solid black;
+    margin: 20px;
+float: left;}
+
+
+.videomujer{ height: auto;background-color: cadetblue;
+    border: 2 px solid black;
+    margin: 20px;}
+
+    .historiahombre{display: flex;
+        justify-content: space-between;
+        height: 400px;
+        width: 90%;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: cadetblue;
+        border: 2 px solid black;
+        margin: 20px;
+    float: left;}
+    
+    .dondeestamos{display: flex;
+        justify-content: space-between;
+        height: 400px;
+        width: 90%;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: cadetblue;
+        border: 2 px solid black;
+        margin: 20px;
+    float: left;
+}
+    
+    .videohombre{ height: auto;background-color: cadetblue;
+        border: 2 px solid black;
+        margin: 20px;}
+
+
+.item1m{ background-image: url(./imagenes/Messi\ Camiseta.jpg);}
+.item2m{background-image: url(./imagenes/pantalon.png);}
+.item3m{background-image: url(./imagenes/campera\ hombre.png);}
+.item4m{background-image: url(./imagenes/Botines.jpg);}
+.item5m{background-image: url(./imagenes/medias.png);}
+
+.item1a{ background-image: url(./imagenes/medias.png);}
+.item2a{background-image: url(./imagenes/camisa.jpg);}
+.item3a{background-image: url(./imagenes/Pelota\ futbol.jpg);}
+.item4a{background-image: url(./imagenes/Botines.jpg);}
+.item5a{background-image: url(./imagenes/medias.png);}
+
